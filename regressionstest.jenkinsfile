@@ -91,7 +91,6 @@ pipeline {
 
                 if (CUSTOM_TEST_PARAMS != 'NULL'){
                   if (CUSTOM_TEST_CASE != 'NULL'){
-                    echo 'IBAMS noooot'
                     echo "testing ${CUSTOM_TEST_PARAMS}"
                     sh """export STAGE=${STAGE}
                     export ENVCONFIGDIR=${ENV_CONFIG_DIR}
